@@ -1,0 +1,48 @@
+.logo{
+    float: left;
+    text-align: left;
+    background-color: gray;
+    color: yellow;
+    width: 30%;
+    height: 40%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.menu{
+    background-color: yellow;
+    color: gray;
+    width: 70%;
+    height: 40%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    float: right;
+}
+
+.menu li{
+    display: inline;
+    text-decoration: none;
+    padding: 5%;
+}
+
+p{
+    padding-left: 2%;
+}
+
+body{
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/869/138/350/cat-amp-dog-4k-hd-pc-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.titulo{
+    padding-left: 9%;
+}
+
+.corpotexto{
+    color: black;
+    padding-left: 2%;
+}
+
+.titulo2{
+    
+
+}
