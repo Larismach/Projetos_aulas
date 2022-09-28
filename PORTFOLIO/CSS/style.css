@@ -1,10 +1,10 @@
-    *{
-    margin: 0px;
-    padding: 0px;
+*{
+    margin: 0%;
     box-sizing: border-box;
     
     
-    }
+}
+
     header{
     background-color:palevioletred;
     width: 100%;
@@ -44,36 +44,41 @@
     }
 
 
+strong{
+    font-size: 240%;
+}
 
 
-
-    /* Estilo Textos */
-.conteudo-texto p:nth-child(1)
-{
+    
+h1{   
 	font-family: calibri;
 	font-weight: bold;
 	color: #6d6d6d;
-	font-size: 22px;
- 
+	font-size: 200;
+    color: black;
+    clear: both;
+    padding-left: 10%;
+
 
 }
 
-.conteudo-texto p:nth-child(2)
-{
+
+h2{
 	font-family: calibri;
 	font-weight: bold;
 	letter-spacing: 1px;
-	color: #000;
+	color: black;
 	font-size: 60px;
+    padding-left: 10%;
     
 }
 
-.conteudo-texto p:nth-child(3)
-{
+h3{
 	font-family: myriad pro regular;
 	color: #403e3e;
 	font-size: 30px;
 	line-height: 30px;
+    padding-left: 10%;
 
 }
 
@@ -124,4 +129,25 @@ button:active
 {
 	transform: scale(1.1);
 
+}
+
+body{
+    background-image: url(https://img.freepik.com/fotos-gratis/plano-de-fundo-texturizado-de-marmore-rosa-sujo_53876-104798.jpg?w=2000);
+}
+
+
+img{
+    border-radius: 50%;
+    position: absolute; 
+	top: 20%; 
+	left: 64%; 
+        float: right;
+        margin: 2px 0 0 4px;
+        padding: 4px;
+        background-color:;
+        border: 1px black;
+}
+
+.logos{
+    margin-top: 70%;
 }
