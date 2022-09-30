@@ -1,0 +1,67 @@
+
+.logo{
+    float: left;
+    text-align: left;
+    background-color:blueviolet;
+    color:white;
+    width: 30%;
+    height: 30%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.menu{
+    background-color: blueviolet;
+    color:white;
+    width: 70%;
+    height: 30%;
+    float: right;
+}
+
+.menu li{
+    display: inline;
+    text-decoration: none;
+    padding: 6%;
+    color: white;
+}
+.menu li a{
+    color: white;
+}
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2020/02/24/18/05/background-4876991_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+} 
+
+.content{
+    width: 74%;
+    font-size: 100%;
+    padding-left: 3%;
+    padding-right: 3%;  
+    color: white; text-shadow: black 0.1em 0.1em 0.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    clear: both;
+}
+
+.contentp{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.mainleft{
+    color: white; text-shadow: black 0.1em 0.1em 0.2em;
+    float: right;
+    position: absolute; 
+	top: 20%; /* posiciona a 20% para baixo */
+	left: 76%; /* posiciona a 76% para a esquerda */ 
+}
+            
+
+.footer{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: blueviolet;
+    clear: both;
+}
+

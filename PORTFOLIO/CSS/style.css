@@ -1,9 +1,7 @@
 *{
     margin: 0%;
     box-sizing: border-box;
-    
-    
-}
+    }
 
     header{
     background-color:palevioletred;
@@ -121,7 +119,7 @@ h3{
 {
 	background-color: #0b0b0b;
 	border: none;
-	color: #ffffff;;
+	color: #ffffff;
 
 }
 
@@ -136,7 +134,7 @@ body{
 }
 
 
-img{
+.mainleft{
     border-radius: 50%;
     position: absolute; 
 	top: 20%; 
@@ -144,10 +142,11 @@ img{
         float: right;
         margin: 2px 0 0 4px;
         padding: 4px;
-        background-color:;
+        background-color:white;
         border: 1px black;
 }
 
-.logos{
-    margin-top: 70%;
+.logolinkedin{
+    float: left;
+    padding: 2%;
 }
