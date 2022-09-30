@@ -1,0 +1,75 @@
+.logo{
+    float: left;
+    text-align: left;
+    background-color:hotpink;
+    color:white;
+    width: 30%;
+    height: 30%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.menu{
+    background-color: hotpink;
+    color:white;
+    width: 70%;
+    height: 30%;
+    float: right;
+}
+
+.menu li{
+    display: inline;
+    text-decoration: none;
+    padding: 6%;
+    color: white;
+}
+.menu li a{
+    color: white;
+}
+body{
+    background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p1/2256756-fundo-de-tecnologia-rosa-claro-vetor.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+} 
+
+.content{
+    width: 74%;
+    font-size: 100%;
+    padding-left: 3%;
+    padding-right: 3%;  
+    color: white; text-shadow: black 0.1em 0.1em 0.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    clear: both;
+}
+
+.contentp{
+    color: white;
+    font-size: 16px;
+    color: white; text-shadow: blue 0.1em 0.1em 0.2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    clear: both;
+}
+
+.mainleft{
+    float:right;
+    width: 20%;
+}
+
+img{
+    position: absolute; 
+	top: 20%; /* posiciona a 20% para baixo */
+	left: 69%; /* posiciona a 69% para a esquerda */ 
+        float: right;
+        margin: 2px 0 0 4px;
+        padding: 4px;
+        background-color: blueviolet;
+        border: 1px solid blueviolet;
+}
+
+.footer{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: blueviolet;
+    clear: both;
+}
