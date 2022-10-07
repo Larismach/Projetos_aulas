@@ -1,152 +1,142 @@
 *{
-    margin: 0%;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    }
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-    header{
-    background-color:palevioletred;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 2%;
-    
-    }
-    
-    .container-logo{
+.background{
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+nav{
     display: flex;
     align-items: center;
-    }
-    .logo-texto{
-    margin-left: 20px;
-    color: white;
-    }
-    
-    .menu li{
+    justify-content: space-between;
+    padding: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+nav h2{
+    color:white;
+    font-size: 35px;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+span{
+    color: rgb(255, 5, 138);
+}
+
+nav ul li{
     display: inline-block;
-    margin: 0 10px;
-    }
-    
-    .menu li a {
-    font-size: 24px;
+    padding: 10px 25px;
+    list-style-type: none;
+}
+
+nav ul li a{
+    color:white;
     text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-    padding: 10px 15px;
-    border-radius: 15px;
-    
-    }
-    
-    .menu li a:hover{
-    background-color: rgba(100, 100, 100, 0.5);
-    }
+    font-weight: bold;
+    text-transform: capitalize;
+}
 
+nav ul li a:hover{
+    color:salmon;
+    transform: scale(1.2);
+}
 
-strong{
-    font-size: 240%;
+/*fim nav*/
+
+.Main{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50);
+    float: left;
 }
 
 
-    
-h1{   
-	font-family: calibri;
-	font-weight: bold;
-	color: #6d6d6d;
-	font-size: 200;
-    color: black;
-    clear: both;
-    padding-left: 10%;
-
-
+h4{
+    color: salmon;
+    letter-spacing: 2px;
+    font-size: 20px;    
 }
 
-
-h2{
-	font-family: calibri;
-	font-weight: bold;
-	letter-spacing: 1px;
-	color: black;
-	font-size: 60px;
-    padding-left: 10%;
-    
+h1{
+    color:#fff;
+    margin: 20px 0px 20px;
+    font-size: 75px;
 }
 
 h3{
-	font-family: myriad pro regular;
-	color: #403e3e;
-	font-size: 30px;
-	line-height: 30px;
-    padding-left: 10%;
-
+    color:#fff;
+    font-size: 25px;
+    margin-bottom: 50px;
 }
 
+/*Fim meu nome*/
 
 
-.conteudo-texto 
-{
-	line-height: 0px;
-	margin: 45px 0px 25px;
+
+/*MINHA FOTO*/
+
+.foto{
+    float:right;
+    width: 20%;
 }
 
-.conteudo-texto 
-{
-	position: absolute;
-	left: 13%;
-	top: 42%;
-	transform: translate(-13%, -42%);
-}
-
-.conteudo-texto button
-{
-	width: 130px;
-	height: 42px;
-	border-radius: 10px;
-	font-family: calibri;
-	font-weight: bold;
-	font-size: 14px;
-	outline: none;
-	margin: 0px 10px;
-}
-
-.btn1
-{
-	border: 2px solid #373636;
-	color: #373636;
-
-}
-
-.btn2
-{
-	background-color: #0b0b0b;
-	border: none;
-	color: #ffffff;
-
-}
-
-button:active
-{
-	transform: scale(1.1);
-
-}
-
-body{
-    background-image: url(https://img.freepik.com/fotos-gratis/plano-de-fundo-texturizado-de-marmore-rosa-sujo_53876-104798.jpg?w=2000);
-}
-
-
-.mainleft{
-    border-radius: 50%;
-    position: absolute; 
-	top: 20%; 
-	left: 64%; 
+img{
+    border-radius: 50%; 
+    position:absolute;
+	top: 20%; /* posiciona a 20% para baixo */
+	left: 69%; /* posiciona a 69% para a esquerda */ 
         float: right;
         margin: 2px 0 0 4px;
         padding: 4px;
-        background-color:white;
-        border: 1px black;
+        background-color: rgb(255, 5, 138);
+        border: 1px solid rgb(255, 5, 138);
+}
+/*MINHA FOTO*/
+
+
+/* INICIO SOBRE MIM*/
+
+.Sobre{
+    position: absolute;
+    top: 30%;
+    left: 8%;
 }
 
-.logolinkedin{
-    float: left;
-    padding: 2%;
+.Sobre h2{
+    color: salmon;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
 }
+
+.Sobre h5{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 150%;
+    margin: 20px 0px 20px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
