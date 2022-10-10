@@ -6,7 +6,7 @@
 }
 
 .background{
-    background-color: black;
+    background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p1/2284714-dark-blue-technology-background-hi-tech-digital-and-communication-concept-design-free-space-for-text-in-put-vector-illustration-vetor.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -54,7 +54,7 @@ nav ul li a:hover{
 
 .Main{
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 8%;
     transform: translateY(-50);
     float: left;
@@ -93,8 +93,8 @@ h3{
 img{
     border-radius: 50%; 
     position:absolute;
-	top: 20%; /* posiciona a 20% para baixo */
-	left: 69%; /* posiciona a 69% para a esquerda */ 
+	top: 23%; /* posiciona a 20% para baixo */
+	right: 8%; /* posiciona a 69% para a direita */ 
         float: right;
         margin: 2px 0 0 4px;
         padding: 4px;
@@ -104,11 +104,24 @@ img{
 /*MINHA FOTO*/
 
 
+
+/*REDESSOCIAIS*/
+
+.redes{
+    top: 50%;
+}
+
+/*REDESSOCIAIS*/
+
+
+
+
+
 /* INICIO SOBRE MIM*/
 
 .Sobre{
     position: absolute;
-    top: 30%;
+    top: 27%;
     left: 8%;
 }
 
